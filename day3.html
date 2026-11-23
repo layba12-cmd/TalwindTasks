@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Practice</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar: Flexbox -->
+    <div class="flex justify-between items-center bg-blue-600 text-white p-5">
+        <h1 class="text-2xl font-bold">My Website</h1>
+        <div class="flex gap-5">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <!-- Heading -->
+    <div class="text-center py-10">
+        <h1 class="text-3xl font-bold text-blue-600">
+            Welcome to Tailwind CSS
+        </h1>
+        <p class="text-gray-600 mt-3">
+            Practising basic Tailwind CSS concepts.
+        </p>
+        <button class="bg-blue-600 text-white px-6 py-2 mt-5 rounded">
+            Get Started
+        </button>
+    </div>
+    <!-- Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 px-8 py-5">
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+            <h2 class="text-xl font-bold">Flexbox</h2>
+            <p class="text-gray-600 mt-3">
+                Learn how to arrange items in rows and columns.
+            </p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+            <h2 class="text-xl font-bold">Grid</h2>
+            <p class="text-gray-600 mt-3">
+                Create layouts using rows and columns.
+            </p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+            <h2 class="text-xl font-bold">Spacing</h2>
+            <p class="text-gray-600 mt-3">
+                Practise margin, padding and gap.
+            </p>
+        </div>
+    </div>
+    <!-- Flexbox Practice -->
+    <div class="flex flex-wrap justify-center items-center gap-5 p-10">
+        <div class="bg-pink-400 text-white p-5 rounded">
+            Box 1
+        </div>
+        <div class="bg-purple-400 text-white p-5 rounded">
+            Box 2
+        </div>
+        <div class="bg-green-500 text-white p-5 rounded">
+            Box 3
+        </div>
+    </div>
+</body>
+</html>
